@@ -1,0 +1,117 @@
+.Home {
+  display:flex;
+  
+}
+  
+.Navbar  {
+
+
+  align-items:center;
+
+  font: optional;
+  font: 2em sans-serif;
+  
+
+}
+ ul li {
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  list-style-type: none;
+
+}
+/* App.css */
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+  justify-content:center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.Navbar {
+  background-color: #333;
+  overflow: hidden;
+}
+
+.Navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.Navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.Navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.Navbar li {
+  float: left;
+}
+
+.Navbar li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+/* Add these styles to your App.css or create a separate Login.css file */
+/* Basic CSS styles for the Login component */
+
+.LoginContainer {
+  max-width: 400px;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.inputGroup {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type="email"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
